@@ -1,0 +1,42 @@
+#page {
+	margin: 5px 20px;
+}
+
+nav {
+	border-style: solid;
+	background-color: #3d2b63;
+	color: white;
+}
+
+nav p {
+	display: inline-block;
+	position: relative;
+	left: 25px;
+}
+
+nav ul {
+	display: inline-block;
+	position: relative;
+	left: 350px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: white;
+	padding-left: 100px;
+	text-decoration: none;
+}
+
+
+#main-section {
+	background-color: grey;
+	position: relative;
+	margin: auto;
+	height: 450px;
+}
+
+
+
