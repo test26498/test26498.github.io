@@ -1,42 +1,102 @@
+
+
+body {
+	background-color: #c1c5cc;
+	font-family: 'Oswald', sans-serif;
+}
+
 #page {
-	margin: 5px 20px;
-}
-
-nav {
-	border-style: solid;
-	background-color: #3d2b63;
-	color: white;
-}
-
-nav p {
-	display: inline-block;
-	position: relative;
-	left: 25px;
-}
-
-nav ul {
-	display: inline-block;
-	position: relative;
-	left: 350px;
-}
-
-nav ul li {
-	display: inline-block;
-}
-
-nav ul li a {
-	color: white;
-	padding-left: 100px;
-	text-decoration: none;
-}
-
-
-#main-section {
-	background-color: grey;
-	position: relative;
+	max-width: 1800px;
+	background-color: #c1c5cc;
 	margin: auto;
-	height: 450px;
+	position: relative;
+
 }
+
+a {
+	text-decoration: none;
+	color: #230f47;
+}
+
+/*--------------Navigational Elements---------------------------------*/
+nav {
+	border-bottom: solid black 1px;
+}
+
+#nav_list {
+	list-style: none;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: white;
+	
+}
+
+.nav_list_item {
+	display: inline-block;
+	
+}
+
+#home_list_item {
+	margin-left: 5%;
+}
+
+#guidelines_list_item {
+	margin-left: 35%;
+}
+
+#developers_list_item {
+	margin-left: 15%;
+}
+
+#testing_list_item {
+	margin-left: 15%;
+}
+
+
+/*----------------Main-------------------------------------------*/
+section {
+	margin-top: 50px;
+	height: 700px;
+	padding: 0px;
+
+}
+
+#sub_nav {
+	height: 100%;
+	width: 25%;
+	float: left;
+	border: solid black 1px;
+}
+
+#main {
+	height: 100%;
+	width: 72%;
+	margin-right: auto;
+	float: right;
+	border: solid black 1px;
+}
+
+
+
+/*---------------footer-------------------------------------------*/
+footer {
+	border-bottom: solid black 1px;
+	margin-top: 35px;
+}
+
+#footer_content {
+	text-align: right;
+	margin-right: 75px;
+}
+
+
+
+
+
+
+
 
 
 
